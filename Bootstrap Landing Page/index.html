@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Laundry</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+ <style>
+
+.navbar {
+	background-color:white;
+}
+
+
+ .navbar-brand {
+		width: 60px;
+		height:60px;
+ }
+ 	
+.pull-left {
+	margin:3px;
+} 	
+ #topContainer {
+ 	 	 background-image:url("laundryBackground2.jpeg");
+ 	 	 height:400px;
+ 	 	 width:100%;
+ 	 	 background-size:cover;
+ 	 	 }
+ 	 	 	
+ #topRow {
+ 	 	 margin-top:100px;
+ 	 	 text-align:center;
+ }
+ 	 	
+ #topRow h1 {
+ 	 	 font-size:300%;
+ 	 	 color:white;
+ 	 	 text-shadow:2px 2px 6px black;
+ } 
+ 	 	
+ #emailSignup {
+ 	 	 margin-top:50px;
+ }
+ 	 	
+ .bold {
+ 	 	 font-weight:bold;
+ }
+ 
+ #pitch {
+ 	font-size:200%;
+ 	color:white;
+ 	text-shadow:2px 2px 6px black;
+
+ }
+ 	 	
+ .marginTop {
+ 	 	 margin-top:30px;
+ }
+ 	 	
+ .center {
+ 	 	 text-align:center;
+ }
+ 	 	
+ .title {
+ 	 	 margin-top:100px;
+ 	 	 font-size:300%;
+ }
+ 	 	
+ #footer {
+ 	 	 background-color:#B0D1FB;
+ 	 	 padding-top:70px;
+ 	 	 width:100%;
+ 	 	 padding-left:0;
+ 	 	 margin:0;
+ }
+ 	 
+.lead {
+		color:white;
+		 	 	 text-shadow:2px 1px 6px black;
+
+		}	
+		
+.faded {
+	opacity:.9;
+
+}		
+.leadExplination {
+		color:white;
+		font-size:120%;
+	 	text-shadow:2px 2px 6px black;
+	 	
+}
+
+
+ .marginBottom {
+ 	 	 margin-bottom:30px;
+ }
+ .appstoreImage {
+ 	 	 width:250px;
+ 	 	 border-radius:10px;
+ }
+ </style>
+ </head>
+ <body data-spy="scroll" data-target=".navbar-collapse">
+ 
+ <div class="navbar navbar-default navbar-fixed-top">
+ <div class="container">
+ 	 	 <div class="navbar-header">
+ 	 	 	 <button class="navbar-toggle" data-toggle="collapse" datatarget=".navbar-collapse">
+ 	 	 	 	 <span class="icon-bar"></span>
+ 	 	 	 	 <span class="icon-bar"></span>
+ 	 	 	 	 <span class="icon-bar"></span>
+ 	 	 	 </button>
+ 	 	 	 <a href="#" class="pull-left"><img src="44by44wc.png"></a>
+ 	 	 	 
+ 	 	 </div>
+ 	 	 	
+ 	 	 <div class="collapse navbar-collapse">
+ 	 	 	 <ul class="nav navbar-nav">	 	
+ 	 	 	 	 <li class="active"><a href="#topContainer">Home</a></li>
+ 	 	 	 	 <li><a href="#details">About</a></li>
+ 	 	 	 	 <li><a href="#footer">Download The App</a></li>
+ 	 	 	 </ul>
+ 	 	 	 <form class="navbar-form navbar-right">
+ 	 	 	 	 <div class="form-group">
+ 	 	 	 	 	 <input type="email" placeholder="Email"
+class="form-control" />
+ 	 	 	 	 </div>
+ 	 	 	 	 <div class="form-group">
+ 	 	 	 	 	 <input type="password" placeholder="Password"
+class="form-control" />
+ 	 	 	 	 </div>
+ 	 	 	 	 <button type="submit" class="btn btn-info faded">Log In</
+button>
+ 	 	 	 </form>
+ 	 	 	 	
+ 	 	 </div>
+ </div>
+ </div>
+
+ <div class="container contentContainer" id="topContainer">
+
+ <div class="row">
+ 	 	
+ 	 	 <div class="col-md-6 col-md-offset-3" id="topRow">
+ 	 	 	
+ 	 	 <h1 class="marginTop">Wicked Clean Laundry</h1>
+ 	 	 	
+ 	 	 <p class="lead">The Best Way to do Laundry</p>
+ 	 	 	
+ 	 	 <p class = "leadExplination">Spend your time doing the things you want to do</p>
+ 	 	 	
+ 	 	 <p class="marginTop" id="pitch">No laundry for a year!<br/>$499.99</p>
+ 	 	 	
+ 	 	 <p class= "leadExplination">Monthly Subscriptions and One Time Pickup Also Available</p>
+ 	 	 
+ 	 	 <form class="marginTop">
+ 	 	 	
+ 	 	 	 <div class="input-group">
+ 	 	 	 	 <span class="input-group-addon">@</span>
+ 	 	 	 	 	
+ 	 	 	 	 <input type="email" class="form-control" placeholder="Your email" />
+ 	 	 	 	 	
+ 	 	 	 </div>
+ 	 	 	 	 	
+ 	 	 	 	 <input type="submit" class="btn btn-info btn-lg
+marginTop faded" />
+ 	 	 	 	
+ 	 	 	 	
+ 	 	 	
+ 	 	 	
+ 	 	 </form>
+ 	 	 	
+ 	 	 	
+ 	 	 	
+ 	 	 </div>
+ 	 	
+ 	 	
+ </div>
+
+ </div>
+
+
+ <div class="container contentContainer" id="details">
+
+<div class="modal" id="myModal">
+	
+	<div class="modal-dialog">
+	
+		<div class="modal-content">
+ 
+ 			<div class="modal-header">
+ 				
+ 				<button type="button" class="close" data-dismiss="modal"><span ariahidden="true">&times;</span><span class="sr-only">Close</span></button>
+ 				<h4 class="modal-title" id="myModalLabel">Schedule A Pickup</h4>
+ 			
+ 			</div>
+ 
+ 			<div class="modal-body">
+ 			
+ 				<form>
+ 				 <div class="input-group">
+ 	 	 	 	 	<span class="input-group-addon glyphicon glyphicon-calendar"></span>
+ 					<input type="datetime-local" class="form-control" id="scheduledDate" />
+ 	 	 	 	</div>
+<br> 					
+ 				 <div class="input-group">
+ 					
+ 	 	 	 	 	<span class="input-group-addon glyphicon glyphicon-map-marker"></span>
+ 					<input type="text" class="form-control" id="location" placeholder="Your address" />
+ 				</div>
+ <br>				
+ 				 <div class="input-group">
+ 					
+ 	 	 	 	 	<span class="input-group-addon glyphicon glyphicon-phone"></span>
+ 					<input type="tel" class="form-control" id="phone" placeholder="Your phone number" />
+ 				</div>
+<br>
+ 				 <div class="input-group">
+ 					
+ 	 	 	 	 	<span class="input-group-addon glyphicon glyphicon-envelope"></span>
+ 	 	 	 	 	<input type="email" class="form-control" id="email" placeholder="Your email" />
+ 				 </div>
+<br>
+ 				</form>
+ 				
+ 			</div>
+ 			
+ 			<div class="modal-footer">
+ 				
+ 				<button type="button" class="btn btn-default" datadismiss="modal">Cancel</button>
+ 				<button type="button" class="btn btn-success">Schedule Pickup</button>
+ 			
+ 			</div>
+	
+		</div>
+			
+	</div>
+
+</div>
+
+
+ 	<div class="row" class="center">
+ 	 	
+ 	 	 <h1 class="center title">Free Pickup and Drop Off</h1>
+ 	 	 <p class="center">All you have to do is fill your laundry bags and schedule a pickup time.</p>
+ 	 	
+ 	</div>
+	<div class="span7 text-center"> 	 	
+ 	 	 	<button class="btn btn-info btn-lg marginTop faded text-center" data-toggle="modal" data-target="#myModal" ><span class="glyphicon glyphicon-calendar"></span>   Schedule</button>
+ 	</div>
+ 	<div class="row marginBottom">
+ 	 	<div class="col-md-4 marginTop">
+ 	 	 	<h2><span class="glyphicon glyphicon-calendar"></span> Schedule Pickup</h2>
+ 	 	 	<p>You can schedule a pickup below or download the app and schedule it there. </p>
+ 	 	 	
+ 	 	</div>
+ 	 
+		<div class="col-md-4 marginTop">
+ 	 	 	<h2><span class="glyphicon glyphicon-map-marker"></span> Set Location</h2>
+ 	 		 <p>Let us know where you want to have us pick up and drop off your laundry and we'll take care of the rest.</p>
+		</div>
+ 	 	 	
+ 		 <div class="col-md-4 marginTop">
+ 	 		 <h2><span class="glyphicon glyphicon-heart"></span> Drop Off</h2>
+ 	 		 <p>We will bring it back to you in your complimentary Wicked Clean Laundry Bags clean and folded. And within 24 hours of pickup.</p>
+		</div>
+ 	 	
+
+	</div>
+
+
+</div>
+ <div class="container contentContainer" id="footer">
+
+ 	<div class="row">
+ 	 	
+ 	 	 <h1 class="center title">Get the iPhone App</h1>
+ 	 	
+ 	 	 <p class="lead center">Coming soon to the GooglePlay.</p>
+ 	 	 	
+ 	 	 <p class="center"><img src="appStore.png" class="appstoreImage" />
+ 	 	
+ 	</div>
+ 	
+ 	<div class="span7 text-center"> 	 	
+ 	 	 	<button id="downloadButton" class="btn btn-info btn-lg marginTop faded text-center"><span class="glyphicon glyphicon-download"></span>   Download</button>
+ 	</div>
+
+ </div>
+ 
+
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/
+jquery.min.js"></script>
+ <!-- Include all compiled plugins (below), or include individual files as
+needed -->
+ <script src="js/bootstrap.min.js"></script>
+
+ <script>
+
+ $(".contentContainer").css("min-height",$(window).height());
+ 
+ $("#downloadButton").click (function() {
+  
+ var win = window.open('https://itunes.apple.com/us/app/wicked-clean-laundry/id1017146460?ls=1&mt=8', '_blank');
+if(win){
+    //Browser has allowed it to be opened
+    win.focus();
+}else{
+    //Broswer has blocked it
+    alert('Please allow popups for this site, your browser seems to be preventing you from getting to the App Store.');
+}
+ });
+ 
+ 
+ </script>
+ </body>
+</html>
